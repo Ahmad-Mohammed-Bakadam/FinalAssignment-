@@ -1,0 +1,41 @@
+/* BookmarkApp.css */
+#content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bookmark-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.bookmark-form input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.bookmark-list {
+  list-style: none;
+  padding: 0;
+}
+
+.bookmark-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bookmark-list li a {
+  flex: 1;
+  text-decoration: none;
+}
+
+.bookmark-list li button {
+  margin-left: 10px;
+}

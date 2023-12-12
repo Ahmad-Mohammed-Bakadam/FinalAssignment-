@@ -1,0 +1,31 @@
+/* App.css */
+.app {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.app h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.app p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.app button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.app button:hover {
+  background-color: #0056b3;
+}
